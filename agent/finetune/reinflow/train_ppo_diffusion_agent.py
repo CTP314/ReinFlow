@@ -34,7 +34,7 @@ import numpy as np
 import torch
 from util.scheduler import CosineAnnealingWarmupRestarts
 from agent.finetune.reinflow.train_ppo_agent import TrainPPOAgent
-from model.diffusion.diffusion_ppo import PPODiffusion
+from reinflow.model.diffusion.diffusion_ppo import PPODiffusion
 from agent.finetune.reinflow.buffer import PPODiffusionBuffer, PPODiffusionBufferGPU 
 # define buffer on cpu or cuda. Currently GPU version is not offering significant acceleration...communication could be a bottleneck. It just increases GPU volatile utilization from 7% to 13% 
 # this is partially due to mujoco engine is still on cpu

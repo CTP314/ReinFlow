@@ -29,7 +29,7 @@ from util.dirs import REINFLOW_DIR
 from util.process import sort_handles_by_labels
 import os
 import numpy as np
-from utils import read_eval_statistics, plot_3d_eval_statistics_groups, plot_3d_eval_statistics_groups_same_color
+from reinflow.utils import read_eval_statistics, plot_3d_eval_statistics_groups, plot_3d_eval_statistics_groups_same_color
 from util.timer import current_time
 import logging 
 log = logging.getLogger(__name__)

@@ -22,7 +22,7 @@
 
 
 import os 
-from utils import merge_eval_statistics
+from reinflow.utils import merge_eval_statistics
 
 if __name__=="__main__":
     MODEL_NAME='DDIM'

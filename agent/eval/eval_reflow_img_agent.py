@@ -27,7 +27,7 @@ Evaluate pre-trained/fine-tuned flow-matching policy.
 import logging
 log = logging.getLogger(__name__)
 from agent.eval.eval_agent_img_base import EvalImgAgent
-from model.flow.reflow import ReFlow
+from reinflow.model.flow.reflow import ReFlow
 from util.timer import Timer
 # for robomimic
 class EvalImgReFlowAgent(EvalImgAgent):

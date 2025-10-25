@@ -43,7 +43,7 @@ from util.timer import Timer
 from collections import deque
 from agent.finetune.train_agent import TrainAgent
 from util.scheduler import CosineAnnealingWarmupRestarts
-from model.diffusion.diffusion_awr import AWRDiffusion
+from reinflow.model.diffusion.diffusion_awr import AWRDiffusion
 
 def td_values(
     states,

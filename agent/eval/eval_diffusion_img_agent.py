@@ -46,7 +46,7 @@ import logging
 log = logging.getLogger(__name__)
 from agent.eval.eval_agent_img_base import EvalImgAgent
 from tqdm import tqdm as tqdm
-from model.diffusion.diffusion import DiffusionModel
+from reinflow.model.diffusion.diffusion import DiffusionModel
 from util.timer import Timer
 
 # for robomimic

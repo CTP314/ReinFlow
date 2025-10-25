@@ -27,7 +27,7 @@ Evaluate diffusion policy obtained from either behavior cloning or reinforcement
 import logging
 log = logging.getLogger(__name__)
 from agent.eval.eval_agent_base import EvalAgent
-from model.flow.reflow import ReFlow
+from reinflow.model.flow.reflow import ReFlow
 from util.timer import Timer
 
 class EvalReFlowAgent(EvalAgent):

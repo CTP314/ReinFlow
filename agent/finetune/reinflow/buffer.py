@@ -28,9 +28,9 @@ log = logging.getLogger(__name__)
 from util.reward_scaling import RunningRewardScaler
 from util.reward_scaling_ts import RunningRewardScalerTensor
 from collections import deque
-from model.common.critic import ViTCritic
-from model.diffusion.diffusion_ppo import PPODiffusion
-from model.flow.ft_ppo.ppoflow import PPOFlow
+from reinflow.model.common.critic import ViTCritic
+from reinflow.model.diffusion.diffusion_ppo import PPODiffusion
+from reinflow.model.flow.ft_ppo.ppoflow import PPOFlow
 
 class PPOBuffer:
     '''

@@ -34,7 +34,7 @@ from agent.finetune.reinflow.train_ppo_agent import TrainPPOAgent
 from agent.finetune.reinflow.buffer import PPOBuffer
 from typing import Tuple
 import numpy as np
-from model.gaussian.gaussian_ppo import PPO_Gaussian
+from reinflow.model.gaussian.gaussian_ppo import PPO_Gaussian
 
 class TrainPPOGaussianAgent(TrainPPOAgent):
     def __init__(self, cfg):

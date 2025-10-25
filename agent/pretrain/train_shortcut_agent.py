@@ -30,7 +30,7 @@ Pre-training ShortCutFlow policy
 import logging
 log = logging.getLogger(__name__)
 from agent.pretrain.train_agent import PreTrainAgent
-from model.flow.shortcutflow import ShortCutFlow
+from reinflow.model.flow.shortcutflow import ShortCutFlow
 class TrainShortCutAgent(PreTrainAgent):
     def __init__(self, cfg):
         super().__init__(cfg)

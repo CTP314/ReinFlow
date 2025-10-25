@@ -47,7 +47,7 @@ from tqdm import tqdm as tqdm
 import logging
 log = logging.getLogger(__name__)
 from agent.eval.eval_agent_base import EvalAgent
-from model.diffusion.diffusion import DiffusionModel
+from reinflow.model.diffusion.diffusion import DiffusionModel
 from util.timer import Timer
 
 # Save the figure

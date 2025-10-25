@@ -41,7 +41,7 @@ from util.timer import Timer
 from collections import deque
 from agent.finetune.train_agent import TrainAgent
 from util.scheduler import CosineAnnealingWarmupRestarts
-from model.diffusion.diffusion_idql import IDQLDiffusion
+from reinflow.model.diffusion.diffusion_idql import IDQLDiffusion
 
 class TrainIDQLDiffusionAgent(TrainAgent):
 

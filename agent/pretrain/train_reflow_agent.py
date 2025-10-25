@@ -28,7 +28,7 @@ Pre-training ReFlow policy
 import logging
 log = logging.getLogger(__name__)
 from agent.pretrain.train_agent import PreTrainAgent
-from model.flow.reflow import ReFlow
+from reinflow.model.flow.reflow import ReFlow
 class TrainReFlowAgent(PreTrainAgent):
     def __init__(self, cfg):
         super().__init__(cfg)

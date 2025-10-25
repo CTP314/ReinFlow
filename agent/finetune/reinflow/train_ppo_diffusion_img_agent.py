@@ -31,9 +31,9 @@ import numpy as np
 import torch
 import logging
 log = logging.getLogger(__name__)
-from model.diffusion.diffusion_ppo import PPODiffusion
+from reinflow.model.diffusion.diffusion_ppo import PPODiffusion
 from agent.finetune.reinflow.train_ppo_diffusion_agent import TrainPPODiffusionAgent
-from model.common.modules import RandomShiftsAug
+from reinflow.model.common.modules import RandomShiftsAug
 from agent.finetune.reinflow.buffer import PPODiffusionImgBuffer, PPODiffusionImgBufferGPU
 
 class TrainPPOImgDiffusionAgent(TrainPPODiffusionAgent):

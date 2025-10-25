@@ -32,7 +32,7 @@ noise_net_ckpt={
 }
 print(f"noise_net={noise_net_ckpt.keys()}")
 
-from model.flow.mlp_flow import ExploreNoiseNet
+from reinflow.model.flow.mlp_flow import ExploreNoiseNet
 
 action_dim=14
 horizon_steps=8

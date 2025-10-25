@@ -23,7 +23,7 @@
 import logging
 log = logging.getLogger(__name__)
 from agent.pretrain.train_agent import PreTrainAgent
-from model.diffusion.diffusion import DiffusionModel
+from reinflow.model.diffusion.diffusion import DiffusionModel
 
 
 

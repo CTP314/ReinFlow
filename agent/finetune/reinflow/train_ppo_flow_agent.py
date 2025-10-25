@@ -31,7 +31,7 @@ from tqdm import tqdm as tqdm
 import numpy as np
 import torch
 from agent.finetune.reinflow.train_ppo_agent import TrainPPOAgent
-from model.flow.ft_ppo.ppoflow import PPOFlow
+from reinflow.model.flow.ft_ppo.ppoflow import PPOFlow
 from agent.finetune.reinflow.buffer import PPOFlowBuffer#, PPOFlowBufferGPU
 from util.scheduler_simple import get_scheduler
 import matplotlib.pyplot as plt

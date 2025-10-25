@@ -33,7 +33,7 @@ from torch import Tensor
 log = logging.getLogger(__name__)
 from util.timer import Timer
 from agent.finetune.train_agent import TrainAgent
-from model.flow.ft_baselines.fql import FQLModel
+from reinflow.model.flow.ft_baselines.fql import FQLModel
 from agent.dataset.sequence import StitchedSequenceQLearningDataset
 from itertools import chain
 from tqdm import tqdm as tqdm

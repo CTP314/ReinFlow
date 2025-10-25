@@ -80,7 +80,7 @@ all = [
 Homepage = "https://reinflow.github.io/"
 
 [tool.setuptools.packages.find]
-exclude = []
+exclude = ['src']
 
 [tool.wheel]
 exclude = []

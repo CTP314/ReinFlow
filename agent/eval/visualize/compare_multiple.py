@@ -24,7 +24,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from util.timer import current_time
-from utils import read_eval_statistics
+from reinflow.utils import read_eval_statistics
 import os 
 
 def plot_eval_statistics(eval_statistics_list,

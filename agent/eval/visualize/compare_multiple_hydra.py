@@ -28,7 +28,7 @@ from hydra.utils import to_absolute_path
 import os
 import json
 from omegaconf import OmegaConf
-from utils import read_eval_statistics, plot_3d_eval_statistics, plot_eval_statistics
+from reinflow.utils import read_eval_statistics, plot_3d_eval_statistics, plot_eval_statistics
 from util.timer import current_time
 from util.dirs import REINFLOW_DIR 
 

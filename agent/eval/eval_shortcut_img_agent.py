@@ -27,7 +27,7 @@ Evaluate pre-trained/fine-tuned flow-matching policy.
 import logging
 log = logging.getLogger(__name__)
 from agent.eval.eval_agent_img_base import EvalImgAgent
-from model.flow.shortcutflow import ShortCutFlow
+from reinflow.model.flow.shortcutflow import ShortCutFlow
 from util.timer import Timer
 # for robomimic
 class EvalImgShortCutAgent(EvalImgAgent):

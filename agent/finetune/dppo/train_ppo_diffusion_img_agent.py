@@ -37,8 +37,8 @@ import math
 log = logging.getLogger(__name__)
 from util.timer import Timer
 from agent.finetune.dppo.train_ppo_diffusion_agent import TrainPPODiffusionAgent
-from model.common.modules import RandomShiftsAug
-from model.diffusion.diffusion_ppo import PPODiffusion
+from reinflow.model.common.modules import RandomShiftsAug
+from reinflow.model.diffusion.diffusion_ppo import PPODiffusion
 
 
 class TrainPPOImgDiffusionAgent(TrainPPODiffusionAgent):

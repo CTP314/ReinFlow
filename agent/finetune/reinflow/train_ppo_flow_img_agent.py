@@ -31,9 +31,9 @@ import torch
 import logging
 log = logging.getLogger(__name__)
 from agent.finetune.reinflow.train_ppo_flow_agent import TrainPPOFlowAgent
-from model.common.modules import RandomShiftsAug
+from reinflow.model.common.modules import RandomShiftsAug
 import numpy as np
-from model.flow.ft_ppo.ppoflow import PPOFlow
+from reinflow.model.flow.ft_ppo.ppoflow import PPOFlow
 from agent.finetune.reinflow.buffer import PPOFlowImgBuffer, PPOFlowImgBufferGPU
 
 class TrainPPOImgFlowAgent(TrainPPOFlowAgent):

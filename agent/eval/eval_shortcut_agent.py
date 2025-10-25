@@ -28,7 +28,7 @@ self.model: Flow
 import logging
 log = logging.getLogger(__name__)
 from agent.eval.eval_agent_base import EvalAgent
-from model.flow.shortcutflow import ShortCutFlow
+from reinflow.model.flow.shortcutflow import ShortCutFlow
 from util.timer import Timer
 
 class EvalShortCutAgent(EvalAgent):
