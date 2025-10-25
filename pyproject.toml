@@ -24,7 +24,7 @@ dependencies = [
     "torch>=2.4.0",
     "tqdm",
     "wandb",
-    "pandas==2.0.3",
+    "pandas",
     "pypdf>=3.9.0",
     "seaborn"
 ]
@@ -80,7 +80,7 @@ all = [
 Homepage = "https://reinflow.github.io/"
 
 [tool.setuptools.packages.find]
-exclude = ['src']
+where = ['src']
 
 [tool.wheel]
 exclude = []
