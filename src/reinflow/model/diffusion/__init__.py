@@ -20,3 +20,5 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+from .diffusion import DiffusionModel
+from .diffusion_eval import DiffusionModel
